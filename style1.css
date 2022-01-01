@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+
+html{font-size: 62.5%}
+
+body{
+        height: 100vh;
+        width:100vw;
+        background-color:white;
+    }
+
+*{
+    box-sizing: border-box;
+}
+
+
+
+.navbar{
+    width: 100%;
+    border-radius: 0.5rem;
+    max-width: 100%;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    background-color:#1c1e1f;
+    position: sticky;
+    top: 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    z-index: 2;
+
+    
+}
+
+.navtitle{
+    resize:none;
+}
+.navtitle img{ 
+    resize:none;
+    border-radius: 0.5rem;
+}
+
+.navbarlinks {
+    height: 100%;
+}
+
+
+.navbarlinks ul{
+    font-size: 1.8rem;
+column-gap: 4rem;
+    margin: 0;
+    padding: 0;
+    display: flex;    
+}
+
+.navbarlinks li{
+    list-style: none;
+}
+
+.navbarlinks li a{
+    text-decoration: none;
+    color: rgb(250, 244, 244);
+    padding:1rem;
+    display:block;    
+}
+.navbarlinks li:hover{
+    background-color: rgb(48, 148, 206);
+}
+.toggle-button{
+    position:absolute;
+    top:2rem;
+    right:1rem;
+    display:none;
+    flex-direction: column;
+    justify-content:space-between;
+    width:30px;
+    height:21px;
+}
+.toggle-button .bar{
+    height:3px;
+    width:100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.all{
+    border:darkgrey solid 1px;
+    width: 98%;
+    max-width: 1024px;
+
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position:relative;
+    box-shadow: #1c1e1f;
+}
+
+.logomainpage{
+    padding: 0;
+    margin: 0;
+    width: 20%;
+    transform:translate(-34rem,2rem);
+
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:space-between;
+    margin:0;
+
+}
+.landing{
+    padding: 0;
+    margin: 0;
+    height: 40rem;
+    filter: drop-shadow(1rem 1rem 1rem rgba(172, 172, 175, 0.938));
+    transform:translate(20rem, -2rem);
+    opacity: 100%;
+
+}
+/*.shadow{
+    padding: 0;
+    margin: 0;
+    justify-content: space-around; 
+    align-items: center;
+    width: 60%;
+    height: 50rem;
+    transform:translate(20rem, 1rem);
+    background: url()no-repeat center/cover;
+    position: absolute;
+    opacity: 20%;
+}*/
+
+
+
+.secondpage{
+    padding: 0;
+    margin: 0rem;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    width: 100%;
+    height: 40rem;
+    background: url(laptopcompressed.jpg)no-repeat center/cover;
+    border-radius: 0.4rem;
+
+}
+
+
+h1{
+    color:rgb(3, 144, 209);
+    font-size: 4rem;
+    position:absolute;
+    transform:translate(-24rem,20rem);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+h5{
+    color:rgb(2, 21, 27);
+    font-size: 3rem;
+    position:absolute;
+    transform:translate(-34rem,15rem);
+    line-height: 2rem;
+}
+
+span{
+    color:rgb(24, 23, 23);
+    font-size: 4rem;
+
+
+
+}
+/*#secondtext{
+    color:yellow;
+    font-family: fantasy;
+    font-size: 5rem;
+    position:absolute;
+    transform:translate(30rem);
+}*/
+
+
+p{
+    font-size:medium;
+    color:gray;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+    
+}
+
+
+.about-us-container {
+    display: flex;
+    /*flex-direction: row;
+    align-items:center;
+    justify-content: space-between;*/
+    height: 30rem;
+    margin: 0rem;
+    padding: 0;
+
+}
+
+.abouttext p{
+line-height: 2.4rem;
+    font-size: 1.6rem;
+    margin: 0rem;
+    padding: 0;
+    transform: translate(0rem,0rem);
+    color: grey;
+    text-align: left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.about{
+color: rgb(0, 88, 170);
+    font-size: 3rem;
+    text-indent: 0rem;
+}
+
+.vision{
+    font-size: 3rem;
+    color: rgb(0, 88, 170);
+
+        text-indent: 0rem;
+        
+    }
+    
+    .strengths{
+    font-size: 3rem;
+    color: rgb(0, 88, 170);
+
+    text-indent: 0rem;
+        margin: 0;
+        padding: 0;
+    }
+    
+hr{
+    border-color:darkgrey;
+}
+   
+
+.laptop {
+    float: right;
+    width: 50%;
+    margin: 1rem 0rem 0rem 0rem;
+    border-radius: 0.4rem;
+  
+}
+
+li{
+    font-size:medium;
+    color: gray;
+    list-style: none;
+}
+
+ul{
+    margin: 0rem;
+    padding: 0;
+}
+li p{
+    line-height: 2.4rem;
+
+    font-size: 1.6rem;
+    margin: 0rem;
+    padding: 0;
+    transform: translate(0rem,0rem);
+    color: grey;
+    text-align: left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+footer{
+    background-color: rgb(32, 32, 32);
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content:space-evenly;
+    margin:0;
+    padding: 1rem;
+
+    
+}
+footer p{
+    color: white;
+    font-size: small;
+
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+    
+
+  /*  .image-area img {
+        width: 85%;
+        height: 100%;
+        }*/
+
+@media only screen and (max-width: 800px) {
+    
+    .toggle-button{
+       display: flex;
+
+    }
+   .navbarlinks{
+       display: none;
+       width: 100%;
+   } 
+   .navbar{
+       flex-direction: column;
+       align-self: flex-start;
+   }
+     .navbarlinks ul{
+         width:100%;
+         flex-direction: column;
+     } 
+     .navbarlinks ul li{
+        text-align: center;
+    } 
+  
+     .navbarlinks ul li a{
+         padding: 1.4rem 1rem;
+     }
+
+     .navbarlinks.active{
+         display: flex;
+     }
+
+     .landing {
+        height: 27rem;
+        transform: translate(9rem, -3rem);
+        }    
+            h1 {
+                color: rgb(3, 144, 209);
+                font-size: 3rem;
+                transform: translate(-9rem,8rem);
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }                    
+                    span {
+                        color: rgb(24, 23, 23);
+                        font-size: 2rem;
+                        }
+                        h5 {
+                            color: rgb(2, 21, 27);
+                            font-size: 0.6rem;
+                            transform: translate(-17rem,8rem);
+                            line-height: 2rem;
+                            }                            .logomainpage {
+                                width: 30%;
+                                transform: translate(-12rem,2rem);
+                                }                                .image-area img {
+                                    width: 100%;
+                                    height: 100%;
+                                    }
+                                    
+            body{
+        
+        width:98vw;
+    
+    }
+
+                            
+
+  
+}
